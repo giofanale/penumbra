@@ -24,6 +24,7 @@ backend "gcs" {
   bucket = "<name of bucket just created>"
 }
 ```
+hcl
 4. Run `terraform init -migrate-state`
 5. Likely enable public access prevention detailed below.
 
